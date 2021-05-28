@@ -86,7 +86,7 @@ def enterUnits():
     if checkFails(unit_list):
         return unit_list
     else:
-        print("You have failed more than 6 of your units, you do not qualify for Honours.")
+        print("You have failed 6 or more of your units, you do not qualify for Honours.")
         exit()
 
 
