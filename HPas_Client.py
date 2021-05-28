@@ -8,7 +8,7 @@ def checkFails(units):  # Checks how many failing marks have been entered and re
     for unit in units:
         if unit[1] < 50:
             fails += 1
-    if fails > 6:
+    if fails >= 6:
         return False
     else:
         return True
